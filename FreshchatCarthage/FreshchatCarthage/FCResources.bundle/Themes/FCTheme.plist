@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>FooterView</key>
+	<dict>
+		<key>FreshchatDisableFrame</key>
+		<string>c961b4e958d2d8ce939c1880b92a5dbb</string>
+	</dict>
 	<key>ConversationDetail</key>
 	<dict>
 		<key>AttachIcon</key>
@@ -13,129 +18,111 @@
 		<key>CancelIcon</key>
 		<string>FCResources.bundle/Images/freshchat_cancel_icon</string>
 		<key>TeamMemberAvatarIcon</key>
-		<string></string>
+		<string>FCResources.bundle/Images/freshchat_agent_avatar_icon</string>
 		<key>SendIcon</key>
 		<string>FCResources.bundle/Images/freshchat_send_icon</string>
 		<key>RecordIcon</key>
 		<string>FCResources.bundle/Images/freshchat_mic_icon</string>
-		<key>TeamMemberAvatarStyle</key>
-		<dict>
-			<key>visible</key>
-			<true/>
-		</dict>
 		<key>TeamMemberNameTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>13.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>TeamMemberMessageTextStyle</key>
 		<dict>
 			<key>textColorLink</key>
 			<string>#2283F6</string>
 			<key>fontName</key>
-			<string>Arial</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>textAlignment</key>
 			<string></string>
 		</dict>
 		<key>TeamMemberMessageTimeTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>11.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>UserMessageTextStyle</key>
 		<dict>
 			<key>textColorLink</key>
 			<string>#2283F6</string>
 			<key>fontName</key>
-			<string>Arial</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>textAlignment</key>
 			<string></string>
 		</dict>
 		<key>UserMessageTimeTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>11.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>MessageButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>borderColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>selectedColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>MessageReplyInputViewStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>textColorHint</key>
 			<string>#D3D3D3</string>
 			<key>textCursorColor</key>
-			<string>#808285</string>
+			<string>#4591E9</string>
 			<key>borderColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#FFFFFF</string>
 			<key>buttonColor</key>
-			<string>#000000</string>
+			<string>#BABABA</string>
 		</dict>
 		<key>MessageReplyViewStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>dividerColor</key>
 			<string>#B3B3B3</string>
-		</dict>
-		<key>FallbackMessageStyle</key>
-		<dict>
-			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
-			<key>textSize</key>
-			<string>15.0f</string>
-			<key>textColor</key>
-			<string></string>
-			<key>borderColor</key>
-			<string></string>
-			<key>background</key>
-			<string>#FFFFFF</string>
 		</dict>
 		<key>CustomerSurveyDialogStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#F7F7F7</string>
+			<string>#DCDCDC</string>
 			<key>dividerColor</key>
-			<string>#B3B3B3</string>
+			<string>#E6E6E6</string>
 		</dict>
 		<key>CustomerSurveyRatingBarStyle</key>
 		<dict>
@@ -145,38 +132,38 @@
 		<key>CustomerSurveyQuestionTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>13.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>CustomerSurveyCommentsInputViewStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>13.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>borderColor</key>
-			<string>#808285</string>
+			<string>#B3B3B3</string>
 		</dict>
 		<key>CustomerSurveySubmitButtonTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
-			<string>#378CF8</string>
+			<string>#007AFF</string>
 			<key>background</key>
-			<string>#F7F7F7</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ChatResolutionPromptTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -185,12 +172,12 @@
 		<key>ChatResolutionPromptViewStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ChatResolutionNegativeButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -203,11 +190,11 @@
 		<key>ChatResolutionPositiveButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#007AFF</string>
 			<key>borderColor</key>
@@ -216,20 +203,20 @@
 		<key>BackButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>16.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ConversationBannerMessageStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#34AADC</string>
 		</dict>
@@ -255,7 +242,7 @@
 		<key>MessageListStyle</key>
 		<dict>
 			<key>background</key>
-			<string>FCResources.bundle/Images/freshchat_conv_bg</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ChatBubbleInsets</key>
 		<dict>
@@ -276,28 +263,13 @@
 			<key>UserBubbleRight</key>
 			<string>10</string>
 		</dict>
-		<key>UnsupportedContentTextStyle</key>
-		<dict>
-			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
-			<key>textSize</key>
-			<string>10.0f</string>
-			<key>textColor</key>
-			<string>#8D96A5</string>
-			<key>background</key>
-			<string>#FFFFFF</string>
-			<key>borderColor</key>
-			<string>#F2F3F5</string>
-			<key>icon</key>
-			<string>FCResources.bundle/Images/freshchat_unsupported_content_icon</string>
-		</dict>
 	</dict>
 	<key>ChannelList</key>
 	<dict>
 		<key>ChannelNameTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -306,7 +278,7 @@
 		<key>ChannelDescriptionTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -317,7 +289,7 @@
 		<key>ChannelLastUpdatedAtTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>12.0f</string>
 			<key>textColor</key>
@@ -326,18 +298,18 @@
 		<key>ChannelUnreadCountTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>13.0f</string>
 			<key>textColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#3399FF</string>
 		</dict>
 		<key>ChannelAltIconStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>22.0f</string>
 			<key>background</key>
@@ -355,12 +327,12 @@
 			<key>backgroundSelected</key>
 			<string>#DCDCDC</string>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ChannelListEmptyTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -372,32 +344,32 @@
 		<key>TitleTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>17.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>ActionButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>16.0f</string>
 			<key>textColor</key>
-			<string>#0079FF</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>NavigationBarStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#F8F8F8</string>
+			<string>#F04A8A</string>
 		</dict>
 		<key>SubTitleTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textColor</key>
-			<string>#6D6D6D</string>
+			<string>#F6F6F6</string>
 		</dict>
 	</dict>
 	<key>FAQDetail</key>
@@ -405,11 +377,11 @@
 		<key>FAQUpvoteButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#007AFF</string>
 			<key>borderColor</key>
@@ -418,7 +390,7 @@
 		<key>FAQDownvoteButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -436,7 +408,7 @@
 		<key>FAQVotingPromptTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -448,7 +420,7 @@
 		<key>TitleTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -457,7 +429,7 @@
 		<key>BodyTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -466,7 +438,7 @@
 		<key>IconStyle</key>
 		<dict>
 			<key>borderColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
 			<string>#3F51B5</string>
 		</dict>
@@ -477,28 +449,26 @@
 		</dict>
 		<key>NotificationCancel</key>
 		<string>FCResources.bundle/Images/freshchat_notification_cancel_icon</string>
-		<key>ShowPushPrompt</key>
-		<true/>
 	</dict>
 	<key>Miscellaneous</key>
 	<dict>
 		<key>DefaultGlobalFont</key>
-		<string>SYS_DEFAULT_FONT_NAME</string>
+		<string>Capita-Medium</string>
 		<key>ContactUsTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>background</key>
-			<string>#4D90E9</string>
+			<string>#4591E9</string>
 		</dict>
 		<key>StatusBarStyle</key>
 		<dict>
 			<key>StatusBarBackground</key>
-			<string>UIStatusBarStyleDefault</string>
+			<string>UIStatusBarStyleLightContent</string>
 		</dict>
 		<key>ImagePreviewStyle</key>
 		<dict>
@@ -516,7 +486,7 @@
 		<key>CancelButtonStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -525,19 +495,19 @@
 		<key>SearchQueryTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>13.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 			<key>textColorHint</key>
 			<string>#808285</string>
 			<key>borderColor</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>textCursorColor</key>
 			<string>#0079FF</string>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>SearchBarStyle</key>
 		<dict>
@@ -559,7 +529,7 @@
 		<key>FAQListItemStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>backgroundSelected</key>
 			<string>#C9C9CA</string>
 			<key>dividerColor</key>
@@ -568,16 +538,16 @@
 		<key>FAQTitleTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
-			<string>#000000</string>
+			<string>#3C3C3C</string>
 		</dict>
 		<key>FAQListEmptyTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -589,7 +559,7 @@
 		<key>FAQCategoryNameTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>15.0f</string>
 			<key>textColor</key>
@@ -598,7 +568,7 @@
 		<key>FAQCategoryDescriptionTextStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>14.0f</string>
 			<key>textColor</key>
@@ -609,12 +579,12 @@
 		<key>FAQCategoryListStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 		</dict>
 		<key>FAQCategoryAltIconStyle</key>
 		<dict>
 			<key>fontName</key>
-			<string>SYS_DEFAULT_FONT_NAME</string>
+			<string>Capita-Medium</string>
 			<key>textSize</key>
 			<string>22.0f</string>
 			<key>background</key>
@@ -623,7 +593,7 @@
 		<key>FAQCategoryListItemStyle</key>
 		<dict>
 			<key>background</key>
-			<string>#FFFFFF</string>
+			<string>#F6F6F6</string>
 			<key>backgroundSelected</key>
 			<string>#DCDCDC</string>
 			<key>dividerColor</key>

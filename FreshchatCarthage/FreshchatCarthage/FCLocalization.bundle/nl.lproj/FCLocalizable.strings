@@ -187,3 +187,5 @@
 
 "typically_replies_within_x_minutes" = "Antwoordt gewoonlijk binnen";
 
+/*Business hour offline response */
+"business_hour_offline" = "We zijn er even niet";

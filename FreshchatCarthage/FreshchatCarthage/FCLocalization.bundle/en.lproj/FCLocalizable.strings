@@ -13,6 +13,9 @@
 
 "audio_recording_stopped" = "Recording stopped";
 
+/* Business hour offline response */
+"business_hour_offline" = "We are away now";
+
 "camera_permission_alert_cancel" = "Cancel";
 
 "camera_permission_denied" = "Camera permission is required to capture pictures";
@@ -33,12 +36,23 @@
 /* Channels */
 "channels_title_text" = "Conversations";
 
+"chat_message_time_other_year" = "MMM YYYY";
+
+"chat_message_time_this_year_long" = "MMM dd',' hh:mm a";
+
+"chat_message_time_this_year_short" = "MMM dd";
+
+/* Message time format */
+"chat_message_time_today" = "hh:mm a";
+
 "chat_resolution_prompt_no_button_text" = "No";
 
 /* Yes No Prompt */
 "chat_resolution_prompt_text" = "Were all your concerns addressed? ";
 
 "chat_resolution_prompt_yes_button_text" = "Yes";
+
+"chat_resolution_survey_question_text" = "";
 
 "contact_us_button_text" = "Message us";
 
@@ -89,6 +103,11 @@
 
 "empty_message_title" = "Empty message";
 
+"error_message_account_not_active_cancel" = "Cancel";
+
+/* Account delete messages for actions */
+"error_message_account_not_active_text" = "This section is no longer available";
+
 "faq_close_button_text" = "Close";
 
 "faq_feature_not_enabled_text" = "FAQ feature is disabled";
@@ -123,6 +142,9 @@
 "message_unsent_info_text" = "We were unable to send your message(s) at this time. Please check your internet connection and try again later.";
 
 "message_unsent_title" = "Your message was not sent";
+
+/* Unsupported message content */
+"message_unsupported_content" = "Unsupported message content";
 
 "modify_push_setting_info_text" = "Enable push notifications to be notified even when out of this chat. Enable push notifications for this app from Settings --> Notification Centre";
 

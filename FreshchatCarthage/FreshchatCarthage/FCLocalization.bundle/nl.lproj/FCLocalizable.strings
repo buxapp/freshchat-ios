@@ -1,7 +1,7 @@
 "article_vote_prompt_no_button_text" = "Nee";
 
 /* Article UpVote DownVote */
-"article_vote_prompt_text" = "Hebben we je goed geholpen?";
+"article_vote_prompt_text" = "Hebben we je hiermee geholpen?";
 
 "article_vote_prompt_yes_button_text" = "Ja";
 
@@ -9,56 +9,70 @@
 
 "audio_recording" = "Geluidsopname";
 
-"audio_recording_permission_denied" = "Toegang tot microfoon ontbreekt. Schakel dit in via je instellingen.";
+"audio_recording_permission_denied" = "Toestemming ontbreekt. Schakel microfoon toestemming in onder Instellingen.";
 
-"audio_recording_stopped" = "Opname gestopt";
+"audio_recording_stopped" = "Opname Gestopt";
+
+/* Business hour offline response */
+"business_hour_offline" = "We zijn nu niet aanwezig";
 
 "camera_permission_alert_cancel" = "Annuleren";
 
-"camera_permission_denied" = "Er is toestemming vereist om toegang te krijgen tot camera om foto's te maken";
+"camera_permission_denied" = "Geef toegang tot je camera om foto's te maken";
 
-"camera_unavailable_description" = "Je toestel heeft geen camera, of de camera is niet beschikbar.";
+"camera_unavailable_description" = "Je toestel heeft geen camera, of de camera is niet beschikbaar.";
 
 "camera_unavailable_ok_button_text" = "OK";
 
 /* Camera Unavailable alert */
-"camera_unavailable_title" = "Je camera is niet beschikbaar";
+"camera_unavailable_title" = "Geen toegang tot je camera";
 
 "cancel_audio_recording_alert" = "Weet je zeker dat je de opname wilt annuleren?";
 
 "channels_close_button_text" = "Sluiten";
 
-"channels_feature_not_enabled_text" = "De chat is uitgeschakeld";
+"channels_feature_not_enabled_text" = "De chatfunctie is niet beschikbaar";
 
 /* Channels */
 "channels_title_text" = "Chat";
 
+"chat_message_time_other_year" = "MMM JJJ";
+
+"chat_message_time_this_year_long" = "MMM dd',' hh:mm a";
+
+"chat_message_time_this_year_short" = "MMM dd";
+
+/* Message time format */
+"chat_message_time_today" = "uu:mm a";
+
 "chat_resolution_prompt_no_button_text" = "Nee";
 
 /* Yes No Prompt */
-"chat_resolution_prompt_text" = "Heb je verder nog hulp nodig?";
+"chat_resolution_prompt_text" = "Hebben we je hiermee geholpen? ";
 
 "chat_resolution_prompt_yes_button_text" = "Ja";
 
+"chat_resolution_survey_question_text" = "";
+
 "contact_us_button_text" = "Stuur ons een bericht";
 
-"currently_replying_in_2_hours" = "Antwoordt binnen 2 uur";
+"currently_replying_in_2_hours" = "Momenteel binnen 2 uur antwoord";
 
-"currently_replying_in_an_hour" = "Antwoordt binnen een uur";
+"currently_replying_in_an_hour" = "Momenteel antwoord binnen een uur";
 
 /* Average replies */
-"currently_replying_in_a_minute" = "Antwoordt binnen een minuut";
+"currently_replying_in_a_minute" = "Antwoordt momenteel binnen een minuut";
 
-"currently_replying_in_few_hours" = "Antwoordt binnen een paar uur";
+"currently_replying_in_few_hours" = "Antwoord momenteel binnen een paar uur";
 
-"currently_replying_in_x_minutes" = "Antwoordt binnen";
+"currently_replying_in_x_minutes" = "Antwoordt momenteel binnen";
 
 /* Survey prompt */
-"cust_sat_not_resolved_prompt" = "Hoe hadden wij je beter kunnen helpen?";
+"cust_sat_not_resolved_prompt" = "Hoe hadden we je beter kunnen helpen?";
 
-"cust_sat_submit_button_text" = "Versturen";
+"cust_sat_submit_button_text" = "Verstuur";
 
-"cust_sat_user_comments_placeholder" = "Additionele feedback";
+"cust_sat_user_comments_placeholder" = "Extra feedback";
 
 "day_friday" = "Vrijdag";
 
@@ -79,22 +93,27 @@
 
 "default_file_button_text" = "Open bestand";
 
-"default_video_button_text" = "Bekijk video";
+"default_video_button_text" = "Kijk video";
 
 "empty_channel_text" = "Er zijn hier nog geen berichten";
 
-"empty_faq_text" = "Sorry! Er is geen FAQ beschikbaar.";
+"empty_faq_text" = "Sorry! Er is nog geen FAQ beschikbaar.";
 
-"empty_message_info_text" = "Je kunt geen leeg bericht sturen. Type een bericht om te versturen.";
+"empty_message_info_text" = "Je kunt geen leeg bericht versturen. Typ een bericht om te versturen";
 
-"empty_message_title" = "Leeg bericht";
+"empty_message_title" = "Leeg Bericht";
+
+"error_message_account_not_active_cancel" = "Annuleren";
+
+/* Account delete messages for actions */
+"error_message_account_not_active_text" = "Dit onderdeel is niet meer beschikbaar";
 
 "faq_close_button_text" = "Sluiten";
 
-"faq_feature_not_enabled_text" = "FAQ functie is uitgeschakeld";
+"faq_feature_not_enabled_text" = "FAQ is niet beschikbaar";
 
 /* Solution Categories */
-"faq_title_text" = "Veelgestelde vragen";
+"faq_title_text" = "FAQ";
 
 /* Image Attachment */
 "image_attachment_cancel_button_text" = "Annuleren";
@@ -103,30 +122,33 @@
 
 "image_attachment_select_new_image" = "Maak een foto";
 
-"loading_channel_text" = "Berichten laden";
+"loading_channel_text" = "Berichten worden geladen";
 
-"loading_faq_text" = "FAQ laden";
+"loading_faq_text" = "FAQ wordt geladen";
 
-"long_audio_alert_description_text" = "Je geluidsopname duurt langer dan 2 minute. Weet je zeker dat je deze wilt versturen?";
+"long_audio_alert_description_text" = "Het audiobericht is langer dan 2 minuten. Zeker dat je dit wilt versturen?";
 
 "long_audio_alert_post_button_text" = "Verstuur";
 
-"long_audio_alert_title" = "Je geluidsopname is te lang. Probeer het opnieuw.";
+"long_audio_alert_title" = "De geluidsopname is te kort. Probeer opnieuw.";
 
 "messages_agent_label_text" = "Support";
 
 "messages_close_button_text" = "Sluiten";
 
 /* Message UI */
-"message_placeholder_text" = "Schrijf een bericht";
+"message_placeholder_text" = "Typ een bericht";
 
-"message_unsent_info_text" = "We konden je bericht(en) op dit moment niet versturen. Controleer je internetverbinding en probeer het later nog eens.";
+"message_unsent_info_text" = "We konden je bericht(en) op dit moment niet versturen. Controleer je internetverbinding en probeer het later nog eens";
 
-"message_unsent_title" = "Je bericht is niet verzonden";
+"message_unsent_title" = "Je bericht is niet verstuurd";
 
-"modify_push_setting_info_text" = "Schakel pushnotificaties in om ook op de hoogte te blijven wanneer deze chat niet open staat. Schakel dit aan/uit via Instellingen --> Notificaties";
+/* Unsupported message content */
+"message_unsupported_content" = "De inhoud van het bericht wordt niet ondersteund";
 
-"modify_push_setting_title" = "Wijzig de instellingen voor pushnotificaties";
+"modify_push_setting_info_text" = "Sta pushberichten toe zodat je ook een melding krijgt als je deze chat hebt verlaten. Dit doe je via Instellingen --> Berichtgeving";
+
+"modify_push_setting_title" = "Wijzig de instellingen voor push notificaties";
 
 /* Notifications */
 "notification_message_default" = "Je hebt een bericht!";
@@ -139,11 +161,11 @@
 
 "photo_library_permission_alert_cancel" = "Annuleren";
 
-"photo_library_permission_denied" = "Er is toestemming vereist om toegang te krijgen tot foto's uit fotogalerij";
+"photo_library_permission_denied" = "Er is toestemming vereist om toegang te krijgen tot foto's uit je fotogalerij";
 
 "picture_message_title" = "Afbeelding";
 
-"picture_message_upload_error" = "Fout bij laden van afbeelding. Afbeelding niet gevonden.";
+"picture_message_upload_error" = "Fout bij laden bericht. Afbeelding niet gevonden";
 
 /* Picture attached */
 "pic_msg_attachment_close_btn" = "Terug";
@@ -157,24 +179,24 @@
 
 "restoring_channel_text" = "Berichten herstellen";
 
-"search_empty_result_text" = "Sorry, we konden niet vinden waar je naar zocht.";
+"search_empty_result_text" = "Sorry! Wij konden niet vinden wat je zocht.";
 
 /* Search View Place Holder */
 "search_placeholder_text" = "Zoek FAQ";
 
 "send_button_text" = "Verstuur";
 
-"server_error_info_text" = "Bericht versturen lukt niet. Probeer het later nog eens.";
+"server_error_info_text" = "Er ging iets mis tijdens het versturen van je bericht. Probeer het nog eens.";
 
-"short_audio_alert_description_text" = "Je geluidsopname is te kort. Probeer het opnieuw.";
+"short_audio_alert_description_text" = "De geluidsopname is te kort. Probeer nog eens.";
 
 /* Posting audio message alerts */
 "short_audio_alert_title" = "Je bericht is te kort";
 
-"thank_you_prompt_contact_us_button_text" = "Nog steeds hulp nodig? Neem contact met ons op.";
+"thank_you_prompt_contact_us_button_text" = "Heb je meer hulp nodig? Praat met ons.";
 
 /* Article Vote thank you prompt */
-"thank_you_prompt_text" = "Bedankt voor je feedback!";
+"thank_you_prompt_text" = "Bedankt voor je feedback";
 
 "typically_replies_within_2_hours" = "Antwoordt gewoonlijk binnen 2 uur";
 
@@ -187,5 +209,3 @@
 
 "typically_replies_within_x_minutes" = "Antwoordt gewoonlijk binnen";
 
-/*Business hour offline response */
-"business_hour_offline" = "We zijn er even niet";

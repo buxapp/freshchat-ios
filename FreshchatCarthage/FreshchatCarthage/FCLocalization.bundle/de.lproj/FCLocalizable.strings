@@ -38,9 +38,9 @@
 
 "chat_message_time_other_year" = "MMM YYYY";
 
-"chat_message_time_this_year_long" = "dd MMM',' hh:mm a";
+"chat_message_time_this_year_long" = "MMM dd',' hh:mm a";
 
-"chat_message_time_this_year_short" = "dd MMM";
+"chat_message_time_this_year_short" = "MMM dd";
 
 /* Message time format */
 "chat_message_time_today" = "hh:mm a";

@@ -263,6 +263,42 @@
 			<key>UserBubbleRight</key>
 			<string>10</string>
 		</dict>
+		<key>UnsupportedContentTextStyle</key>
+		<dict>
+			<key>fontName</key>
+			<string>SYS_DEFAULT_FONT_NAME</string>
+			<key>textSize</key>
+			<string>10.0f</string>
+			<key>textColor</key>
+			<string>#8D96A5</string>
+			<key>background</key>
+			<string>#FFFFFF</string>
+			<key>borderColor</key>
+			<string>#F2F3F5</string>
+			<key>icon</key>
+			<string>FCResources.bundle/Images/freshchat_unsupported_content_icon</string>
+		</dict>
+		<key>QuickReplyStyle</key>
+		<dict>
+			<key>background</key>
+			<string>#FFFFFF</string>
+			<key>fontName</key>
+			<string>Arial</string>
+			<key>textSize</key>
+			<string>15.0f</string>
+			<key>textColor</key>
+			<string>#FFFFFF</string>
+			<key>cellBackground</key>
+			<string>#0380fc</string>
+			<key>cornerRadius</key>
+			<string>10</string>
+			<key>cellPadding</key>
+			<string>10</string>
+			<key>rowPadding</key>
+			<string>10</string>
+			<key>maxHeightPercentage</key>
+			<string>35</string>
+		</dict>
 	</dict>
 	<key>ChannelList</key>
 	<dict>

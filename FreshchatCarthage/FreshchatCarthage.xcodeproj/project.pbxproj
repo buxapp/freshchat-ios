@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3C0944234254E30095D813 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3C0943234254E30095D813 /* WebKit.framework */; };
 		EA3B6BC62306A218006C6322 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA3B6BC22306A215006C6322 /* LICENSE */; };
 		EA3B6BC72306A218006C6322 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA3B6BC32306A215006C6322 /* ReleaseNotes.txt */; };
 		EA3B6BC82306A218006C6322 /* FreshchatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3B6BC42306A216006C6322 /* FreshchatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3C0943234254E30095D813 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		EA3B6BC22306A215006C6322 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EA3B6BC32306A215006C6322 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		EA3B6BC42306A216006C6322 /* FreshchatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshchatSDK.h; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			files = (
 				EA65F83D2162EB6A0052FC85 /* CoreGraphics.framework in Frameworks */,
 				EA65F83B2162EB610052FC85 /* UIKit.framework in Frameworks */,
+				3C3C0944234254E30095D813 /* WebKit.framework in Frameworks */,
 				EA3B6BC92306A218006C6322 /* libFDFreshchatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +87,7 @@
 		EA65F8392162EB610052FC85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C3C0943234254E30095D813 /* WebKit.framework */,
 				EA65F83C2162EB6A0052FC85 /* CoreGraphics.framework */,
 				EA65F83A2162EB610052FC85 /* UIKit.framework */,
 			);

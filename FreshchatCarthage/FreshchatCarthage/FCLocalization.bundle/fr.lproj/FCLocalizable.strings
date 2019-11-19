@@ -1,0 +1,211 @@
+"article_vote_prompt_no_button_text" = "Non";
+
+/* Article UpVote DownVote */
+"article_vote_prompt_text" = "Avons-nous répondu à tes préoccupations ?";
+
+"article_vote_prompt_yes_button_text" = "Oui";
+
+"audio_message_title" = "Message audio";
+
+"audio_recording" = "Enregistrement audio";
+
+"audio_recording_permission_denied" = "Nous n'avons pas accès au micro. Autorise son utilisation dans tes Paramètres.";
+
+"audio_recording_stopped" = "Enregistrement interrompu";
+
+/* Business hour offline response */
+"business_hour_offline" = "Nous ne sommes pas disponibles pour le moment";
+
+"camera_permission_alert_cancel" = "Annuler";
+
+"camera_permission_denied" = "Nous avons besoin d'accéder à ton appareil photo pour prendre des photos";
+
+"camera_unavailable_description" = "Il semblerait que tu n'aies pas d'appareil photo, ou que celui-ci n'est pas utilisable.";
+
+"camera_unavailable_ok_button_text" = "OK";
+
+/* Camera Unavailable alert */
+"camera_unavailable_title" = "Ton appareil photo n'est pas disponible";
+
+"cancel_audio_recording_alert" = "Souhaites-tu annuler l'enregistrement ?";
+
+"channels_close_button_text" = "Fermer";
+
+"channels_feature_not_enabled_text" = "Le chat est désactivé";
+
+/* Channels */
+"channels_title_text" = "Chat";
+
+"chat_message_time_other_year" = "MMM YYYY";
+
+"chat_message_time_this_year_long" = "MMM dd',' hh:mm a";
+
+"chat_message_time_this_year_short" = "MMM dd";
+
+/* Message time format */
+"chat_message_time_today" = "hh:mm a";
+
+"chat_resolution_prompt_no_button_text" = "Non";
+
+/* Yes No Prompt */
+"chat_resolution_prompt_text" = "Avons-nous répondu à toutes tes questions ? ";
+
+"chat_resolution_prompt_yes_button_text" = "Oui";
+
+"chat_resolution_survey_question_text" = "";
+
+"contact_us_button_text" = "Envoie-nous un message";
+
+"currently_replying_in_2_hours" = "Le temps de réponse est de deux heures";
+
+"currently_replying_in_an_hour" = "Le temps de réponse est d'une heure";
+
+/* Average replies */
+"currently_replying_in_a_minute" = "Le temps de réponse est d'une minute";
+
+"currently_replying_in_few_hours" = "Nous te répondrons d'ici quelques heures";
+
+"currently_replying_in_x_minutes" = "Entrain de te répondre";
+
+/* Survey prompt */
+"cust_sat_not_resolved_prompt" = "Comment aurions-nous pu t'aider davantage ?";
+
+"cust_sat_submit_button_text" = "Envoyé";
+
+"cust_sat_user_comments_placeholder" = "Retours supplémentaires";
+
+"day_friday" = "Vendredi";
+
+"day_monday" = "Lundi";
+
+"day_saturday" = "Samedi";
+
+/* days */
+"day_sunday" = "Dimanche";
+
+"day_thursday" = "Jeudi";
+
+"day_tuesday" = "Mardi";
+
+"day_wednesday" = "Mercredi";
+
+"default_action_button_text" = "Voir";
+
+"default_file_button_text" = "Ouvrir le fichier";
+
+"default_video_button_text" = "Regarde la vidéo";
+
+"empty_channel_text" = "Il n'y a pas de message pour le moment";
+
+"empty_faq_text" = "Désolé ! Il n'y a pas de FAQ disponible";
+
+"empty_message_info_text" = "Tu ne peux pas envoyer un message vide. Écris un message à envoyer.";
+
+"empty_message_title" = "Message vide";
+
+"error_message_account_not_active_cancel" = "Annuler";
+
+/* Account delete messages for actions */
+"error_message_account_not_active_text" = "Cette section n'est plus disponible";
+
+"faq_close_button_text" = "Fermer";
+
+"faq_feature_not_enabled_text" = "La FAQ est désactivée";
+
+/* Solution Categories */
+"faq_title_text" = "FAQ";
+
+/* Image Attachment */
+"image_attachment_cancel_button_text" = "Annuler";
+
+"image_attachment_select_existing_image" = "Télécharger depuis la galerie";
+
+"image_attachment_select_new_image" = "Prends une photo";
+
+"loading_channel_text" = "Chargement des messages";
+
+"loading_faq_text" = "Chargement de la FAQ";
+
+"long_audio_alert_description_text" = "Ton message audio fait plus de 2 minutes. Souhaites-tu vraiment l'envoyer ?";
+
+"long_audio_alert_post_button_text" = "Envoyé";
+
+"long_audio_alert_title" = "Ton enregistrement audio est trop long. Réessaie !";
+
+"messages_agent_label_text" = "Support";
+
+"messages_close_button_text" = "Fermer";
+
+/* Message UI */
+"message_placeholder_text" = "Écris un message";
+
+"message_unsent_info_text" = "Nous n'avons pas pu envoyer ton/tes message(s). Vérifie ta connexion internet et réessaie plus tard.";
+
+"message_unsent_title" = "Ton message n'a pas été envoyé";
+
+/* Unsupported message content */
+"message_unsupported_content" = "Message non supporté";
+
+"modify_push_setting_info_text" = "Autorise les notifications push pour rester informé des réponses quand le chat est fermé. Rends-toi dans les Paramètres --> Centre de notificaiton";
+
+"modify_push_setting_title" = "Modifier les paramètres de notifications";
+
+/* Notifications */
+"notification_message_default" = "Tu as reçu un message !";
+
+/* No Internet Connectivity */
+"offline_internet_message" = "Pas de connexion internet";
+
+/* Article Detail */
+"offline_missing_content_text" = "Connecte-toi à internet pour accéder au contenu disponible dans cet article.";
+
+"photo_library_permission_alert_cancel" = "Annuler";
+
+"photo_library_permission_denied" = "L'autorisation à la galerie est nécessaire pour accéder aux photos";
+
+"picture_message_title" = "Image";
+
+"picture_message_upload_error" = "Erreur lors du chargement de l'image. Image introuvable.";
+
+/* Picture attached */
+"pic_msg_attachment_close_btn" = "Retour";
+
+"pic_msg_attachment_title_text" = "Photo";
+
+"placeholder_minutes" = "minutes";
+
+/* Restoring view */
+"restore_close_button_text" = "Fermer";
+
+"restoring_channel_text" = "Restauration des messages";
+
+"search_empty_result_text" = "Désolés ! Nous ne trouvons pas ce que tu cherches.";
+
+/* Search View Place Holder */
+"search_placeholder_text" = "Rechercher dans la FAQ";
+
+"send_button_text" = "Envoyé";
+
+"server_error_info_text" = "Erreur lors de l'envoi du message. Réessaie plus tard.";
+
+"short_audio_alert_description_text" = "Ton enregistrement audio est trop court. Réessaie.";
+
+/* Posting audio message alerts */
+"short_audio_alert_title" = "Ton message est trop court";
+
+"thank_you_prompt_contact_us_button_text" = "Tu cherches encore de l'aide ? Dis nous tout !";
+
+/* Article Vote thank you prompt */
+"thank_you_prompt_text" = "Merci pour ton retour !";
+
+"typically_replies_within_2_hours" = "Nous répondons généralement dans les 2 heures";
+
+"typically_replies_within_an_hour" = "Nous répondons généralement dans l'heure";
+
+/* Typically replies */
+"typically_replies_within_a_minute" = "Nous répondons généralement dans la minute";
+
+"typically_replies_within_few_hours" = "Nous répondons généralement en quelques heures";
+
+"typically_replies_within_x_minutes" = "Nous répondons généralement en";
+

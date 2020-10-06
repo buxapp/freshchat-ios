@@ -13,8 +13,10 @@
 		0219B85F239EEC5D0061B039 /* FreshchatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0219B85E239EEC5C0061B039 /* FreshchatSDK.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		0219B861239EEC750061B039 /* libFDFreshchatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0219B860239EEC750061B039 /* libFDFreshchatSDK.a */; platformFilter = ios; };
 		0219B863239EEC8D0061B039 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0219B862239EEC8D0061B039 /* ReleaseNotes.txt */; platformFilter = ios; };
-		02F2B280239F891500023DCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA65F83C2162EB6A0052FC85 /* CoreGraphics.framework */; platformFilter = ios; };
-		02F2B283239F891700023DCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA65F83A2162EB610052FC85 /* UIKit.framework */; platformFilter = ios; };
+		3C2FD5E4252CEBB100904675 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2FD5E3252CEBB100904675 /* UIKit.framework */; platformFilter = ios; };
+		3C2FD5E7252CEBC500904675 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2FD5E6252CEBC500904675 /* CoreGraphics.framework */; platformFilter = ios; };
+		3C2FD5EA252CEBDD00904675 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2FD5E9252CEBDD00904675 /* QuartzCore.framework */; platformFilter = ios; };
+		3C2FD5F4252CEC6800904675 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2FD5F3252CEC6800904675 /* CoreServices.framework */; platformFilter = ios; };
 		EA3B6BC62306A218006C6322 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA3B6BC22306A215006C6322 /* LICENSE */; platformFilter = ios; };
 		EA65F8252162EAE10052FC85 /* FreshchatCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = EA65F8232162EAE10052FC85 /* FreshchatCarthage.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -26,6 +28,12 @@
 		0219B85E239EEC5C0061B039 /* FreshchatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshchatSDK.h; sourceTree = "<group>"; };
 		0219B860239EEC750061B039 /* libFDFreshchatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDFreshchatSDK.a; sourceTree = "<group>"; };
 		0219B862239EEC8D0061B039 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		3C2FD5E3252CEBB100904675 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C2FD5E6252CEBC500904675 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3C2FD5E9252CEBDD00904675 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3C2FD5EC252CEC2300904675 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		3C2FD5F0252CEC5800904675 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		3C2FD5F3252CEC6800904675 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		EA3B6BC22306A215006C6322 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EA65F8202162EAE10052FC85 /* FreshchatCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreshchatCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA65F8232162EAE10052FC85 /* FreshchatCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreshchatCarthage.h; sourceTree = "<group>"; };
@@ -39,9 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F2B280239F891500023DCC /* CoreGraphics.framework in Frameworks */,
-				02F2B283239F891700023DCC /* UIKit.framework in Frameworks */,
+				3C2FD5EA252CEBDD00904675 /* QuartzCore.framework in Frameworks */,
+				3C2FD5E7252CEBC500904675 /* CoreGraphics.framework in Frameworks */,
 				0219B861239EEC750061B039 /* libFDFreshchatSDK.a in Frameworks */,
+				3C2FD5F4252CEC6800904675 /* CoreServices.framework in Frameworks */,
+				3C2FD5E4252CEBB100904675 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +94,12 @@
 		EA65F8392162EB610052FC85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C2FD5F3252CEC6800904675 /* CoreServices.framework */,
+				3C2FD5F0252CEC5800904675 /* MobileCoreServices.framework */,
+				3C2FD5EC252CEC2300904675 /* CoreImage.framework */,
+				3C2FD5E9252CEBDD00904675 /* QuartzCore.framework */,
+				3C2FD5E6252CEBC500904675 /* CoreGraphics.framework */,
+				3C2FD5E3252CEBB100904675 /* UIKit.framework */,
 				EA65F83C2162EB6A0052FC85 /* CoreGraphics.framework */,
 				EA65F83A2162EB610052FC85 /* UIKit.framework */,
 			);
@@ -129,7 +145,7 @@
 		EA65F8172162EAE10052FC85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Freshdesk;
 				TargetAttributes = {
 					EA65F81F2162EAE10052FC85 = {
@@ -206,6 +222,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

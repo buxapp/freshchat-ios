@@ -418,7 +418,7 @@
 				EA65F8272162EAE10052FC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		EA65F8282162EAE10052FC85 /* Build configuration list for PBXNativeTarget "FreshchatCarthage" */ = {
 			isa = XCConfigurationList;
@@ -427,7 +427,7 @@
 				EA65F82A2162EAE10052FC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

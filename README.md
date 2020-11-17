@@ -31,7 +31,7 @@ Freshchat allows complete UI customization and localization of SDK screens. To a
 
 **FCResources.bundle** - Theme customization
 
-Under root folder https://github.com/freshdesk/freshchat-ios/tree/carthage/Resources download Resources.zip. Unzip it and add  ```FCLocalization.bundle``` and ```FCResources.bundle``` with Target Membership for project.
+Under root folder https://github.com/freshdesk/freshchat-ios/blob/carthage/Resources.zip download Resources.zip. Unzip it and add  ```FCLocalization.bundle``` and ```FCResources.bundle``` with Target Membership for project.
 
 
 ### Initilization
@@ -43,8 +43,9 @@ Swift : Add same ```#import "FreshchatCarthage/FreshchatSDK.h"``` into your Brid
 
 Documentation - https://support.freshchat.com/support/solutions/articles/232945-freshchat-ios-sdk-integration
 
+Theme : To customize SDK screens, copy and rename FCTheme.plist at your project level. Do necessary changes in renamed .plist file for look/feel update. Finally update file name in SDK config. Check documentation for more information.
+
 Theme Guide - https://support.freshchat.com/support/solutions/articles/229814-freshchat-ios-sdk-themes
-Note : For theme you need to open FCResources.bundle with show package content. Under Themes folder file called FCTheme.plist will help you in changing SDK theme. We are exploring more options to make the theme customization process more simpler.
 
 Thats all :)
 

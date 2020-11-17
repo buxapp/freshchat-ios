@@ -2,40 +2,14 @@ Freshchat iOS SDK - Powered by Freshdesk
 
 Documentation   : https://support.freshchat.com
 Support Email   : support@freshchat.com
-Version         : 3.7.7
+Version         : DEV
 
-Ver 3.7.7 
+Ver DEV 
 __________________________
-Enhancement :
-- Proactive warning for incorrect app domain.
-Bug Fix :
-- Better handling of system font for HTML messages. 
-
-Ver 3.7.6 
-__________________________
-Enhancement :
-- Removed extra padding for images in message.
-
-Ver 3.7.5 
-__________________________
-Bug Fixes:
-- Better handling of "&" in messages.
-
-Ver 3.7.4 
-__________________________
-Enhancements :
-- Coredata improvements.
-- FAQ refresh optimisation.
-Bug Fixes :
-- Minor bug fixes.
-
-Ver 3.7.3 
-__________________________
-Enhancement:
-- Minor improvements on message loading.
-Bug Fixes:
-- Fixed FAQ not helpful bug.
-- Fixed attaching HEIC/TIFF images.
+Freshchat iOS SDK - Powered by Freshdesk
+Documentation   : https://support.freshchat.com
+Support Email   : support@freshchat.com
+Version         : 3.7.2
 
 Ver 3.7.2 
 __________________________
@@ -45,7 +19,7 @@ Bug fix :
 Ver 3.7.1 
 __________________________
 Enhancement : 
-- Support for multiline placeholder text in feedback view.
+- Support for multiline placeholder text in feedback view
 
 Ver 3.7.0 
 __________________________
